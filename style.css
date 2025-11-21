@@ -1,0 +1,31 @@
+body{
+    background-color: #414141;
+
+}
+.hero-banner{
+    height:300px;
+    background-size: cover;
+    background-position: center;
+   
+    background-image:url("https://media.istockphoto.com/id/853486232/photo/business-superhero-mixed-media.jpg?s=612x612&w=is&k=20&c=o-99UzL_OMhsxBdSfw8Q1mCBJLpyuKHJfw-4l_Lff2E=");
+}
+.movie-card{
+    width: 300px;
+    transition: transform 0.2s;
+}
+.movie-card:hover{
+    transform: scale(1.1);
+}
+.movie-row::-webkit-scrollbar {
+    height: 8px;
+
+}
+.movie.row::-webkit-scrollbar-track{
+    background: #222;
+    
+}
+.movie-row::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 20px;
+   
+}
